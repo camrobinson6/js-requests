@@ -2,7 +2,7 @@
 //THE TEST SERVER IS RUNNING ON LOCALHOST:3000//
 ////////////////////////////////////////////////
 
-const { response } = require("express");
+
 
 
 
@@ -88,7 +88,7 @@ const ohMy = () => {
 axios.get('http://localhost:3000/animals' )
 .then(response => console.log(response.data))
    for(let i = 0; i < response.data; i++){
-       
+
    }
 }
 
